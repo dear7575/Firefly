@@ -8,6 +8,7 @@ import FontManager from "@components/features/FontManager.astro";
 import MusicManager from "@components/features/MusicManager.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
+import Analytics from "@vercel/analytics/astro";
 
 import {
 	backgroundWallpaper,
@@ -123,6 +124,7 @@ const siteLang = lang.replace("_", "-");
             screenRecord={siteConfig.analytics.la51Analytics?.screenRecord}
             />
     )}
+    <Analytics />
 
     <title>{pageTitle}</title>
     <meta
@@ -417,7 +419,7 @@ const siteLang = lang.replace("_", "-");
               wallpaperWrapper.classList.remove("wallpaper-overlay");
               const isMobile = window.innerWidth < 1024;
               // 移动端非首页时隐藏banner（初始状态直接隐藏，不需要动画）
-              // 桌面端始终显示banner
+              // 桌面���始终显示banner
               if (isMobile && !isHomePage) {
                 wallpaperWrapper.style.display = "none";
                 wallpaperWrapper.classList.add("mobile-hide-banner");
@@ -902,7 +904,7 @@ function disableAnimation() {
       const tocWrapper = document.getElementById("toc-wrapper");
       const isArticlePage = tocWrapper !== null;
 
-      // 只在文章页面重新初始化桌面端 TOC 组件
+      // 只在文���页面重新初始化桌面端 TOC 组件
       if (isArticlePage) {
         const tocElement = document.querySelector("table-of-contents");
         if (tocElement && typeof (tocElement as any).init === "function") {
@@ -1093,7 +1095,7 @@ function disableAnimation() {
       // 检查当前页面是否为文章页面，如果是则触发自定义事件用于初始化评论系统
       setTimeout(() => {
         if (document.getElementById("tcomment")) {
-          // 触发自定义事件，通知评论系统页面已完全加载
+          // 触发自定义事件，通知评论系统页���已完全加载
           const pageLoadedEvent = new CustomEvent("firefly:page:loaded", {
             detail: {
               path: window.location.pathname,

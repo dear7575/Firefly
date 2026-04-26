@@ -11,4 +11,4 @@ image: ./images/firefly1.avif
 
 > 在VM 中加入  **-Dfile.encoding=UTF-8**
 
-![Untitled.png](/uploads/20240618/20260107_213937_97a09168.png)
+![Untitled.png](../uploads/20240618/20260107_213937_97a09168.png)

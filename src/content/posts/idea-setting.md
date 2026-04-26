@@ -13,7 +13,7 @@ image: ./images/firefly1.avif
 
 > 创建方法注释模板: File→Settings→Editor→Live Templates
 
-![4.png](/uploads/20241006/20260107_223844_b68eaa41.png)
+![4.png](../uploads/20241006/20260107_223844_b68eaa41.png)
 
 ```
 **

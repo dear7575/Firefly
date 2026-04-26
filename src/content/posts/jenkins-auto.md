@@ -13,7 +13,7 @@ image: ./images/firefly1.avif
 
 ### JAVA 项目 SSH 配置
 
-![5.png](/uploads/20250610/20260107_225220_2ef1d5c8.png)
+![5.png](../uploads/20250610/20260107_225220_2ef1d5c8.png)
 
 ### JAVA 项目 java\_deploy.sh 执行脚本
 
@@ -178,7 +178,7 @@ zip -r dist.zip ./dist
 
 ### HTML 项目 SSH 配置
 
-![6.png](/uploads/20250610/20260107_225220_e74b9c87.png)
+![6.png](../uploads/20250610/20260107_225220_e74b9c87.png)
 
 ### HTML 项目 html\_deploy.sh 执行脚本
 

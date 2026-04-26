@@ -952,7 +952,7 @@ services:
       - redis
     volumes:
       - ./logs:/app/logs
-      - ./uploads:/app/uploads
+      - ./src/content/uploads:/app/uploads
 
   # MySQL数据库
   mysql:

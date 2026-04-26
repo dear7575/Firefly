@@ -8,6 +8,7 @@ import FontManager from "@components/features/FontManager.astro";
 import MusicManager from "@components/features/MusicManager.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 
 import {
 	backgroundWallpaper,
@@ -546,6 +547,9 @@ const siteLang = lang.replace("_", "-");
 
     <!-- Fancybox Manager -->
     <FancyboxManager />
+
+    <!-- Vercel Speed Insights -->
+    <SpeedInsights />
   </body>
 </html>
 
@@ -890,7 +894,7 @@ function disableAnimation() {
       // 更新侧边栏组件的可见性（根据新页面的 URL）
       updateSidebarComponentsVisibility();
 
-      // 只处理katex元素的容器，使用浏览器原生滚动条
+      // 只处理katex元素的容器，使用浏览器原生��动条
       scheduleContentOverflowEnhancements();
 
       // 重新初始化图标加载器
@@ -902,7 +906,7 @@ function disableAnimation() {
       const tocWrapper = document.getElementById("toc-wrapper");
       const isArticlePage = tocWrapper !== null;
 
-      // 只在文章页面重新初始化桌面端 TOC 组件
+      // 只在���章页面重新初始化桌面端 TOC 组件
       if (isArticlePage) {
         const tocElement = document.querySelector("table-of-contents");
         if (tocElement && typeof (tocElement as any).init === "function") {
@@ -1093,7 +1097,7 @@ function disableAnimation() {
       // 检查当前页面是否为文章页面，如果是则触发自定义事件用于初始化评论系统
       setTimeout(() => {
         if (document.getElementById("tcomment")) {
-          // 触发自定义事件，通知评论系统页面已完全加载
+          // 触发自定义事件，通知评��系统页面已完全加载
           const pageLoadedEvent = new CustomEvent("firefly:page:loaded", {
             detail: {
               path: window.location.pathname,

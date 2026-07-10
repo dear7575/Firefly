@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dear7575.cn/sitemap-index.xml

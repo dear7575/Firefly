@@ -1,7 +1,7 @@
 ---
 title: Markdown 扩展功能
-published: 1970-01-01
-updated: 1970-01-01
+published: 2024-01-01
+updated: 2024-01-01
 description: "了解 Firefly 中的 Markdown 功能"
 image: ""
 tags: [演示, 示例, Markdown, Firefly]
@@ -23,14 +23,14 @@ draft: false
 
 ## 提醒框(Admonitions)配置
 
-Firefly 采用了 [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts) 插件，支持了四种风格的提醒框主题：`GitHub`、`Obsidian`、`VitePress` 和 `Docusaurus`。您可以在 `src/config/siteConfig.ts` 中进行配置：
+Firefly 采用了 [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts) 插件，支持了三种风格的提醒框主题：`GitHub`、`Obsidian` 和 `VitePress`。您可以在 `src/config/siteConfig.ts` 中进行配置：
 
 ```typescript
 // src/config/siteConfig.ts
 export const siteConfig: SiteConfig = {
   // ...
   rehypeCallouts: {
-    // 选项: "github" | "obsidian" | "vitepress" | "docusaurus"
+    // 选项: "github" | "obsidian" | "vitepress"
     theme: "github",
   },
   // ...
@@ -202,14 +202,14 @@ export const siteConfig: SiteConfig = {
 
 ---
 
-### 4. Docusaurus 主题风格
+### 4. Docusaurus 风格语法
 
-[Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) 风格提供了一套现代化的提醒框样式，支持 5 种类型。
+仅支持语法，风格保持跟上面三个主题相同。
 
 <details>
 <summary>点击展开 Docusaurus 语法列表 </summary>
 
-支持以下类型的提醒框：`note` `tip` `info` `warning` `danger`
+支持以下类型的提醒框：`note` `tip` `important` `warning` `caution`
 
 ```markdown
 :::note
@@ -220,15 +220,15 @@ export const siteConfig: SiteConfig = {
 可选信息，帮助用户更成功。
 :::
 
-:::info
-一般信息。
+:::important
+用户成功所必需的关键信息。
 :::
 
 :::warning
 由于潜在风险需要用户立即注意的关键内容。
 :::
 
-:::danger
+:::caution
 行动的负面潜在后果。
 :::
 
@@ -236,10 +236,9 @@ export const siteConfig: SiteConfig = {
 可选信息，帮助用户更成功。
 :::
 ```
+ </details>
 
-</details>
 
-![Docusaurus](./images/docusaurus.avif)
 
 ---
 

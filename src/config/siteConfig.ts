@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "非你莫属",
+	title: "北港不夏",
 
 	// 站点副标题
 	subtitle: "喜欢你，没道理！",
@@ -81,7 +81,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "非你莫属",
+		title: "北港不夏",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -106,9 +106,9 @@ export const siteConfig: SiteConfig = {
 		// 打赏页面开关
 		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: false,
+		guestbook: true,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: false,
+		bangumi: true,
 		// 相册页面开关
 		gallery: true,
 		// 追番页面开关

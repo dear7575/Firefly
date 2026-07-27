@@ -3,7 +3,10 @@ export type { AnnouncementConfig } from "./announcementConfig";
 export type { BackgroundWallpaperConfig } from "./backgroundWallpaper";
 export type { CommentConfig } from "./commentConfig";
 export type { CoverImageConfig } from "./coverImageConfig";
+export type { DisplaySettingsConfig } from "./displaySettingsConfig";
+export type { DynamicConfig } from "./dynamicConfig";
 export type { SakuraConfig } from "./effectsConfig";
+
 export type {
 	ExpressiveCodeConfig,
 	PluginCollapsibleConfig,
@@ -14,6 +17,7 @@ export type { FooterConfig } from "./footerConfig";
 export type { FriendLink, FriendsPageConfig } from "./friendsConfig";
 export type { GalleryAlbum, GalleryConfig } from "./galleryConfig";
 export type { LicenseConfig } from "./licenseConfig";
+export type { MermaidConfig } from "./mermaidConfig";
 export type { MusicPlayerConfig } from "./musicConfig";
 export type {
 	NavBarConfig,

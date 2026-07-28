@@ -5,7 +5,7 @@ import rss, { type RSSFeedItem } from "@astrojs/rss";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getSortedPosts } from "@utils/content-utils";
-import { formatDateI18nWithTime } from "@utils/date-utils";
+// import { formatDateI18nWithTime } from "@utils/date-utils";
 import { url } from "@utils/url-utils";
 import type { APIContext } from "astro";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
@@ -57,7 +57,8 @@ export async function GET(context: APIContext): Promise<Response> {
 		customData: `<templateTheme>Firefly</templateTheme>
 		<templateThemeVersion>${pkg.version}</templateThemeVersion>
 		<templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl>
-		<lastBuildDate>${formatDateI18nWithTime(new Date())}</lastBuildDate>`,
+		// <lastBuildDate>${formatDateI18nWithTime(new Date())}</lastBuildDate>`
+		<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>,
 		items: feedItems,
 	});
 }

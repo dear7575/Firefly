@@ -321,3 +321,14 @@ mkdir -p ./xxx/{xxx,xxx,xxx}
       parsing_network:
         mac_address: "fa:c7:17:f0:06:74"
 ```
+
+### Docker 脚本快速安装
+
+```shell
+# 1.下载 https://github.com/Jrohy/docker-install 安装脚本
+
+# 2.执行安装命令，/root/docker-18.09.6.tgz 为docker安装包
+
+./install.sh -f /root/docker-18.09.6.tgz
+
+```

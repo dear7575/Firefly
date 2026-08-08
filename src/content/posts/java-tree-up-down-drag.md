@@ -2,11 +2,11 @@
 title: ✨上移下移，升级降级树形节点操作工具类
 published: 2025-01-23
 pinned: false
-description: ""
+description: "记录 Java 树形节点排序工具类实现，支持同层级上移下移、升级降级等节点调整操作。"
 tags: [Java, 工具类]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/wl.jpg
 ---
 
 # 上移下移，升级降级工具类

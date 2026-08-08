@@ -2,11 +2,11 @@
 title: ✨SpringBoot Apache CXF 配置
 published: 2024-09-10
 pinned: false
-description: ""
+description: "记录 Spring Boot 集成 Apache CXF 调用 WebService 接口的配置和请求处理示例。"
 tags: [SpringBoot, Apache CXF]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/yy.png
 ---
 
 # SpringBoot Apache CXF 配置

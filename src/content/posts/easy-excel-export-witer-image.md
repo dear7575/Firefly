@@ -2,11 +2,11 @@
 title: ✨使用EasyExcel实现导出Excel写入图片
 published: 2025-07-09
 pinned: false
-description: ""
+description: "记录使用 EasyExcel 导出 Excel 并写入图片的实现示例，包含自定义写入处理逻辑。"
 tags: [EasyExcel, Excel]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/mt.png
 ---
 
 > 示例1

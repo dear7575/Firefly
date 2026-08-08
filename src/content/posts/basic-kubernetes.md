@@ -2,11 +2,11 @@
 title: ✨K8S 基础操作指南
 published: 2024-10-22
 pinned: false
-description: ""
+description: "整理 Kubernetes 常用基础操作命令，包含 Secret、ConfigMap、Service、Deployment 等资源的快速部署示例。"
 tags: [K8S, Linux]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/mt.png
 ---
 
 # K8S 基础操作指南

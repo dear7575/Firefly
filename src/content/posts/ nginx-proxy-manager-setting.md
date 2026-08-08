@@ -2,11 +2,11 @@
 title: ✨Nginx Proxy Manager 相关配置
 published: 2024-07-25
 pinned: false
-description: ""
+description: "记录 Nginx Proxy Manager 的 Docker Compose 部署配置、容器参数和常用反向代理相关设置。"
 tags: [Nginx, 配置]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/yy.png
 ---
 
 # Nginx Proxy Manager 相关配置
@@ -37,12 +37,12 @@ services:
 
 ---
 
-![1.png](../uploads/20240725/20260107_223515_5f14033c.png)
+> ![1.png](../uploads/20240725/20260107_223515_5f14033c.png)
 
 
 
-![2.png](../uploads/20240725/20260107_223515_f1ace7c2.png)
+> ![2.png](../uploads/20240725/20260107_223515_f1ace7c2.png)
 
 
 
-![3.png](../uploads/20240725/20260107_223515_5bf0c057.png)
+> ![3.png](../uploads/20240725/20260107_223515_5bf0c057.png)

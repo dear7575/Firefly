@@ -2,11 +2,11 @@
 title: ✨Excel 样式复制工具类
 published: 2025-06-09
 pinned: false
-description: ""
+description: "记录 Java 中复制 Excel 单元格样式的工具类实现，用于上传、读取和生成 Excel 文件时保留样式。"
 tags: [Java, Excel]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/yy.png
 ---
 
 # Excel 样式复制工具类

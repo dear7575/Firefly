@@ -2,11 +2,11 @@
 title: ✨Nacos Docker-Compose 配置
 published: 2024-10-22
 pinned: false
-description: ""
+description: "记录 Nacos 使用 Docker Compose 部署的配置示例，包含容器参数、环境变量和启动配置。"
 tags: [Nacos, Docker-Compose]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/mt.png
 ---
 
 # Nacos Docker-Compose 配置

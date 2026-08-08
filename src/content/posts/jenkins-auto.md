@@ -2,18 +2,18 @@
 title: ✨Jenkins 自动部署
 published: 2025-01-23
 pinned: false
-description: ""
+description: "记录 Jenkins 自动部署 Java 项目的 SSH 配置和部署脚本示例，包含构建、传输、启动和日志处理流程。"
 tags: [Jenkins, Linux]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/wl.jpg
 ---
 
 # Jenkins 自动部署
 
 ### JAVA 项目 SSH 配置
 
-![5.png](../uploads/20250610/20260107_225220_2ef1d5c8.png)
+> ![5.png](../uploads/20250610/20260107_225220_2ef1d5c8.png)
 
 ### JAVA 项目 java\_deploy.sh 执行脚本
 
@@ -178,7 +178,7 @@ zip -r dist.zip ./dist
 
 ### HTML 项目 SSH 配置
 
-![6.png](../uploads/20250610/20260107_225220_e74b9c87.png)
+> ![6.png](../uploads/20250610/20260107_225220_e74b9c87.png)
 
 ### HTML 项目 html\_deploy.sh 执行脚本
 

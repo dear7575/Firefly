@@ -2,11 +2,11 @@
 title: ✨Response 响应流遇到的坑
 published: 2024-04-26
 pinned: false
-description: ""
+description: "记录后端通过 Response 输出文件流时前端获取 Blob 大小为 0 的问题排查和响应头处理方式。"
 tags: [Java, Response]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/wl.jpg
 ---
 
 > 前端获取Blob大小为0代码

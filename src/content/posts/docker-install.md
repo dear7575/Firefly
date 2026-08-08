@@ -2,11 +2,11 @@
 title: ✨Docker 和 Docker-Compose离线安装教程
 published: 2024-04-22
 pinned: false
-description: ""
+description: "记录 Linux 环境下 Docker 与 Docker Compose 的离线安装流程、防火墙处理和常用配置步骤。"
 tags: [Docker, Docker-Compose]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/mt.png
 ---
 
 # Docker 和 Docker-Compose离线安装教程
@@ -311,7 +311,7 @@ mkdir -p ./xxx/{xxx,xxx,xxx}
 
 ### 快速创建文件
 
-touch
+> touch
 
 
 ### 固定MAC地址
@@ -320,4 +320,15 @@ touch
     networks:
       parsing_network:
         mac_address: "fa:c7:17:f0:06:74"
+```
+
+### Docker 脚本快速安装
+
+```shell
+# 1.下载 https://github.com/Jrohy/docker-install 安装脚本
+
+# 2.执行安装命令，/root/docker-18.09.6.tgz 为docker安装包
+
+./install.sh -f /root/docker-18.09.6.tgz
+
 ```

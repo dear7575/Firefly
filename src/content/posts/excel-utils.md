@@ -2,11 +2,11 @@
 title: ✨Excel 导出工具类
 published: 2024-06-24
 pinned: false
-description: ""
+description: "整理 Java Excel 导出相关工具类实现，包含导出队列、任务处理和文件生成逻辑示例。"
 tags: [Excel, 工具类]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/mt.png
 ---
 
 # **Excel 导出**

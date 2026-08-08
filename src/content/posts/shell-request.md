@@ -2,11 +2,11 @@
 title: ✨Shell 脚本请求接口
 published: 2025-07-09
 pinned: false
-description: ""
+description: "记录使用 Shell 脚本批量读取项目 ID 并请求接口的示例，包含日志记录、参数清洗和请求结果输出。"
 tags: [Linux, Shell]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/yy.png
 ---
 
 # Shell 脚本请求接口

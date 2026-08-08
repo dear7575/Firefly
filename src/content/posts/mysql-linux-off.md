@@ -2,11 +2,11 @@
 title: ✨MySQL Linux 通用版离线安装
 published: 2024-04-22
 pinned: false
-description: ""
+description: "记录 MySQL 5.7 Linux 通用版离线安装流程，包含依赖安装、用户创建、初始化、配置和远程访问设置。"
 tags: [MySQL, Linux]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/wl.jpg
 ---
 
 # MySQL 5.7.41 安装与远程配置指南
@@ -66,7 +66,7 @@ image: ./images/firefly1.avif
 
 ## 四、配置文件
 
-新建 `/etc/my.cnf`：
+> 新建 `/etc/my.cnf`：
 
 ```
 [mysqld]
@@ -158,7 +158,7 @@ FLUSH PRIVILEGES;
 
 ## 九、远程连接测试
 
-在另一台机器执行：
+> 在另一台机器执行：
 
 ```bash
 mysql -h 宿主机IP -P3306 -u root -p

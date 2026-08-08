@@ -2,11 +2,11 @@
 title: ✨Java 获取以太网IP
 published: 2024-04-21
 pinned: false
-description: ""
+description: "记录 Java 遍历网卡并获取以太网 IP 的实现方式，适用于多网卡环境下筛选指定网络地址。"
 tags: [Java, IP]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/yy.png
 ---
 
 # Java 获取以太网IP

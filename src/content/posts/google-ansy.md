@@ -2,11 +2,11 @@
 title: ✨Google 同步操作
 published: 2024-04-25
 pinned: false
-description: ""
+description: "记录 Chrome/Google 同步异常时的排查步骤，包含代理模式、同步页面和 sync-internals 日志检查。"
 tags: [Google, Sync]
 category: 技术分享
 draft: false
-image: ./images/firefly1.avif
+image: ../uploads/20260110/yy.png
 ---
 
 > 操作步骤如下
